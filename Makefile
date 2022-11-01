@@ -6,3 +6,5 @@ obj/Main.o: src/Main.cpp
 	g++ -c src/Main.cpp -o obj/Main.o
 run: bin/main
 	./bin/main
+clear:
+	rm -rf /bin/main obj/Main.o
