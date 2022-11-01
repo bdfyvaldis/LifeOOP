@@ -7,4 +7,4 @@ obj/Main.o: src/Main.cpp
 run: bin/main
 	./bin/main
 clear:
-	rm -rf /bin/main obj/Main.o
+	rm -rf bin/main obj/Main.o
