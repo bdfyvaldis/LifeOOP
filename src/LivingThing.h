@@ -2,7 +2,11 @@
 
 class LivingThing
 {
+  public:
+    int get_row();
+    int get_column();
+    
 private:
-  int row_;
-  int column;
+    int row_;
+    int column_;
 };
