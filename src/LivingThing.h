@@ -1,6 +1,8 @@
 #pragma once
 
-class LivinTthing
+class LivingThing
 {
-
+private:
+  int row_;
+  int column;
 };
