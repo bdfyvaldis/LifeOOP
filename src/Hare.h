@@ -1,10 +1,7 @@
 #pragma once
-#include "LivingThing.h"
+#include "Animal.h"
 
-class Hare: public LivingThing
+class Hare: public Animal
 {
-public:
-    float get_hunger();
-private:
-    float hunger_;
+
 };
