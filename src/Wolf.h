@@ -3,5 +3,5 @@
 
 class Wolf: public Animal
 {
-
+    Wolf();
 };

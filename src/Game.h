@@ -7,8 +7,10 @@
 class Game
 {
     public:
-    std::set<LivingThing*> things;
-    std::set<Carrot*> carrots;
-    std::set<Hare*> hares;
-    std::set<Wolf*> wolfs;
+    std::set<LivingThing*> things_;
+    std::set<Carrot*> carrots_;
+    std::set<Hare*> hares_;
+    std::set<Wolf*> wolfs_;
+    
+    Game();
 };
